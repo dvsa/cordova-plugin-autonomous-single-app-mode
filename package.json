@@ -1,0 +1,11 @@
+{
+  "name": "asam-plugin",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "asam-plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Provide API to enable/disable Autonomous Single App Mode (ASAM) on iOS"
+}
