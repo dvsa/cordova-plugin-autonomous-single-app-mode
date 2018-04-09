@@ -1,16 +1,15 @@
-# Guided Access Cordova Plugin
+# Autonomous Single App Mode Cordova Plugin
 
-Cordova plugin that provide access to enable/disable Guided Access (iOS only feature)
+Cordova plugin that provide access to enable/disable ASAM (iOS only feature)
 
 ## How to use it:
-1. Clone
-2. Enter to your App directory
-3. `cordova plugin add --link ~/path/to/guided/access/plugin/directory/
-4. Usage: 
+ `ionic cordova plugin add https://github.com/dvsa/cordova-plugin-autonomous-single-app-mode`
+
+## Usage: 
  ```
     constructor(public navCtrl: NavController, public platform: Platform) {
     platform.ready().then(() => {
-      (<any>window).GuidedAccess.toggle(false, (didSucceed: Boolean) => {
+      (<any>window)cordova.plugins.ASAM.toggle(false, (didSucceed: Boolean) => {
         // do sth with result 
       });
     });
