@@ -1,8 +1,8 @@
 {
-  "name": "asam-plugin",
+  "name": "cordova-plugin-autonomous-single-app-mode",
   "version": "1.0.0",
   "cordova": {
-    "id": "asam-plugin",
+    "id": "cordova-plugin-autonomous-single-app-mode",
     "platforms": [
       "ios"
     ]
